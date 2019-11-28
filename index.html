@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <Title> Documento de investigación BOTS </Title>
+        <html lang="ES">
+        <script src="js/jQuery.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css">
+
+
+    </head>
+    <body>
+    <section id="menu">
+        <button id="btn1">INTRODUCCIÓN</button>
+        <button id="btn2">TRABAJO RELACIONADO</button>
+        <button id="btn3">METODOLOGÍA</button>
+        <button id="btn4">TEMA 4</button>
+        <button id="btn5">TEMA 5</button>
+    </section>
+        <div class="nombres" >
+        <h1 id="titulo"> Proyecto de investigación acerca de la inteligencia artificial en los videojuegos</h1>
+            <p class="name">Daniel Esteban Guzmán Tabares</p>
+            e-mail: estebantoon@gmail.com<br><br>
+            <p class="name">Juan Felipe Castillo Rincón</p>
+            e-mail: jfcastillo1204@gmail.com<br><br>
+            <p class="name">Alexis Bonilla Chávez</p>
+            e-mail: alexisbonilla@outlook.es<br><br>
+            <p class="name">Juan Camilo Olano Rosas</p>
+            e- mail: juancamiloola@hotmail.com
+        </div>
+     
+        <h2>Resumen</h2>
+        <p class="Resumen">El presente proyecto investigativo se lleva a cabo como una forma de generar conocimiento a partir del conceptos y algoritmos creados por otras personas, cuyo objetivo principal es el de “simular” el comportamiento humano en los videojuegos por medio de la inteligencia artificial.
+            Se deja totalmente claro que muchas de las citas, referencias y conceptos que se describen, no son de nuestra autoría y van a quedar debidamente documentados.
+                
+        </p>
+
+        <h2>Palabras clave</h2>
+        <p class="PalabrasClave">Inteligencia artificial, Bot player, algoritmo, machine learning.</p>
+
+        <h2 id="elem1">1.Introduccion</h2>
+        <p class="Introduccion">En los últimos años los videojuegos se han convertido en parte importante de nuestras culturas, no solamente por su objetivo de entretener sino tambien porque esto ha significado un avance en distintas áreas que involucran su desarrollo. Aspectos como la calidad visual y la dificultad han permitido una mayor inmersión y valoración por parte jugadores, pero tambien un gran reto para sus desarrolladores.
+         Se ha evidenciado la participación de diversas áreas en la investigación y desarrollo de videojuegos como Matemáticas, Física y Ciencias de la Computación. De esta última se rescata el concepto de inteligencia artificial, la cual se centra en la creación y aplicación de algoritmos los cuales permiten automatizar e imitar ciertos aspectos del comportamiento humano, y que a su vez ha permitido el desarrollo de otros conceptos como machine learning y Deep learning. La aplicación de la inteligencia artificial en video juegos varía de acuerdo a la categoría en la que se juegue. Lo anterior permite que se mejore la experiencia de los usuarios haciendo que esta sea lo más cercana posible a la realidad.
+        En este caso usamos la búsqueda de caminos más cortos aplicada a la inteligencia artificial, con una implementación en el lenguaje de programación orientada a objetos java, para simular el comportamiento de un jugador en un juego de soccer, manejando una arquitectura cliente-servidor
+        Se define a la inteligencia artificial como el conjunto de métodos y metodologías aplicadas a la computación que permiten a las maquinas tomar decisiones con base en lo que pueden percibir de su entorno. El comportamiento presentado por las maquinas trata de imitar el comportamiento humano y tiene sus aplicaciones en áreas como: minería de datos, medicina, robótica, sistemas operativos, videojuegos entre otros...
+        </p>
+
+
+        <h3 class="opacidad"> 1.1 Objetivos del proyecto</h3>
+        <h4 class="other">1.1.1 Objetivo General</h4>
+        <p class="ObjetivoGeneral">
+                Implementar algoritmos de búsqueda del camino más corto en una inteligencia artificial al proceso de desarrollo de un juego de soccer que manejara la arquitectura cliente-servidor.
+        </p>
+        <h4 class="other">1.1.2 Objetivos específicos</h4>
+        <p class="ObjetivoEspecifico">
+        Consultar fuentes que permitan entender el funcionamiento de los algoritmos de búsqueda del camino más corto para su posterior implementación al proyecto.<br><br>
+        Con el presente proyecto se quiere implementar algoritmos, relacionados con inteligencia artificial, a un juego de soccer, desarrollado en java, los cuales permitan definir el comportamiento de un adversario y que este en capacidad de responder a las acciones de un usuario.
+        </p>
+
+
+
+        <h2 id="elem2">2 Trabajo relacionado</h2>
+        <p>En el campo de los videojuegos la inteligencia artificial se adapta a los distintos géneros y modalidades existentes en el mercado, comúnmente encontrada en los patrones de acción de los NPC (non-player character), donde con base en las acciones de jugadores, los oponentes o enemigos NPC responden con patrones de comportamiento que dan la impresión de que el enfrentamiento se da con criaturas inteligentes
+                El autor Pieter Spronk [1]., es el responsable del articulo llamado "extroversion in games" y en él. explica que por medio de las acciones del jugador a lo largo del juego es posible obtener una gran cantidad de información permitiendo armar un perfil del mismo, aunque tambien desperdicia información que podría ser mejor aprovechada
+                El artículo "rapid adaption of video game AI"[2] propone una adaptación en la que se utiliza el razonamiento basado en casos. Por medio de esta metodología se recolectan las observaciones hechas por el enemigo para posteriormente extraer una base de casos
+                Debido a que el enfoque de la solución que planteamos se centra en el uso de algoritmos basados en la búsqueda del camino más corto nos basamos en autores con investigaciones previas en el tema, por ejemplo, Xiao Cui y Hao Shi proponen la implementación del algoritmo A* para encontrar el camino más corto hacia un objetivo, describiendo su proceso como un análisis de posiciones inexploradas que ha visto, y de entre todas ellas escoger la más prometedora.
+                I Pohl presenta la búsqueda del camino más corto con una aplicación heurística, aplicada en grafos dirigidos, explorando tambien la eficiencia del mismo.
+            Jie Hu Wang gen Wan y Xiaoqing Yu [10]  vuelven a presentar el algoritmo A* pero esta vez muestran su aplicación en un videojuego desarrollado en unity3d.
+                Botea, Adi [11] analiza trabajos previos donde se aplica la búsqueda del camino más corto, tomando como referencia la industris de los videojuegos
+                R Graham, H McCabe, S Sheridan en Neural networks for real-time pathfinding in computer games [9] se encargaron de relaciónar la búsqueda de caminos más cortos con redes neuronales para el mejoramiento de inteligencias artificiales
+                RE Korf [6]  explora los mejores algoritmos de búsqueda del camino más corto en términos de complejidad, eficiencia y costo.
+                A Ansari, MA Sayyed, K Ratlamwala [3] se enfocaron en aplicar la búsqueda de caminos más corto reduciendo el número de iteraciones en los procesos para aumentar su eficiencia y reducir su complejidad
+                Consideramos que los algoritmos de búsqueda del camino más corto son los más apropiados a nuestra investigación, debido a la cantidad de documentación existente y el seguimiento que se les ha dado previamente, tambien se toma en consideración la dificultad del proyecto al cual lo estamos implementado pues este es bastante simple y por el momento no requerimos manejar una estructura de gran complejidad.
+        </p>
+
+        <h2 id="elem3">3 Metodología</h2>
+        <h3 class="other">3.1 Programa</h3>
+        <p class="Programa">El programa en el cual se probó la implementación del algoritmo es un juego que simula una partida de soccer, en la cual hay dos personajes(jugadores) y dos usuarios controlándolos, se permite que ambos usuarios controlen con el teclado el movimiento de su personaje respectivo, pero para probar la funcionalidad del algoritmo, la partida se da en el computador y el usuario. El personaje controlado por el computador reacciona buscando el balón escogiendo la ruta más corta hacia el mismo, para posteriormente recuperarlo y manipularlo hasta conseguir anotar un gol.</p>
+        <h3 class="other">3.2 Lenguaje de programacion</h3>
+        <p class="LenguajeProgramacion">Para llevar a cabo la implementación del algoritmo se empleó el lenguaje de programación orientada a objetos java, debido al conocimiento previo que se tiene del mismo y la facilidad que nos provee al momento de adaptar las soluciones propuestas. </p>
+        <h3 class="other">3.3 Modelado</h3>
+        <p class="Modelado">Se empleo MVL (Modelo Vista Control) para definir la arquitectura de software con el fin de separar los datos, la interfaz de usuario, y la lógica de los controladores en tres componentes diferentes. 
+         Con la arquitectura Cliente-Servidor se controlan las peticiones de ambos usuarios, para las acciones de cada cliente en la pantalla de su adversario.  
+                </p>
+        <h3 class="other">3.4 Algoritmos</h3>
+        <p class="Algoritmos">
+            Para la implementación se tomaron como base diferentes estructuras de datos, las cuales nos permitieron extraer la funcionalidad básica para encontrar el camino más corto de un punto a otro, teniendo en cuenta tambien el aspecto heurístico que nos permitiera automatizar el control de la maquina sobre su personaje asignado. De entre los algoritmos que se tomaron en cuenta para su análisis de destacan los siguientes:<br>
+             •	Shortest Path, with two useful variations (A*)<br>
+             •	Finding the shortest path or paths between two chosen nodes<br>
+             •	All Pairs Shortest Path and Single Source Shortest Path<br>
+             •	Minimum Spanning Tree<br>
+             •	Dijkstra<br>
+             •	BFS<br>
+             •	DFS<br>
+             Finalmente nos decidimos por implementar un algoritmo propio que se ajustara a nuestras necesidades, basándonos en el conocimiento adquirido de las diversas fuentes de información.<br>
+                </e>
+
+    <h2 id="elem4">CUARTO TEMA</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores fugit reiciendis similique sequi, dicta, velit in voluptatibus ut distinctio quis praesentium quisquam tenetur ullam iusto, eum, error aspernatur dolores a.</p>
+<br><br>
+
+    <h2 id="elem5">QUINTO TEMA</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus officiis enim, alias nemo minima earum placeat recusandae veniam, modi, vel ea fuga! Aliquid ex repudiandae fugit aut saepe, vitae obcaecati!</p>
+
+
+
+<script>
+
+var elem1=$('#elem1').offset().top;
+var elem2=$('#elem2').offset().top;
+var elem3=$('#elem3').offset().top;
+var elem4=$('#elem4').offset().top;
+var elem5=$('#elem5').offset().top;
+
+var rem=70;
+
+$('#btn1').on('click', function(){ $(window).scrollTop(elem1-rem); });
+$('#btn2').on('click', function(){ $(window).scrollTop(elem2-rem); });
+$('#btn3').on('click', function(){ $(window).scrollTop(elem3-rem); });
+$('#btn4').on('click', function(){ $(window).scrollTop(elem4-rem); });
+$('#btn5').on('click', function(){ $(window).scrollTop(elem5-rem); });
+
+
+</script>
+</body>
+</html>
