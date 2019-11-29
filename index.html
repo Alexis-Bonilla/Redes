@@ -62,37 +62,50 @@
         </p>
         <h4 class="other">1.1.2 Objetivos específicos</h4>
         <p class="ObjetivoEspecifico">
-        Consultar fuentes que permitan entender el funcionamiento de los algoritmos de búsqueda del camino más corto para su posterior implementación al proyecto.<br><br>
-        Con el presente proyecto se quiere implementar algoritmos, relacionados con inteligencia artificial, a un juego de soccer, desarrollado en java, los cuales permitan definir el comportamiento de un adversario y que este en capacidad de responder a las acciones de un usuario.
+            Consultar fuentes que permitan entender el
+            funcionamiento de los algoritmos tales como, búsqueda del
+            camino más corto, encontrar el camino más corto o
+            caminos entre dos nodos elegidos, recorridos sobre grafos,
+            entre otros.<br> <br>
+            Implementar algoritmos relacionados con la
+            inteligencia artificial a un juego de fútbol desarrollado en
+            java, para así definir el comportamiento de un adversario,
+            además de que este sea capaz de responder a las
+            acciones que un usuario realice.<br><br>
+            Verificar la correctitud de los algoritmos
+            implementados para la inteligencia artificial del juego, de
+            modo que se observe un comportamiento adecuado del
+            adversario controlado por la máquina, frente a las acciones
+            que pueda realizar un usuario.
         </p>
 
 
 
         <h2 id="elem2">2 Trabajo relacionado</h2>
-        <p>En el campo de los videojuegos la inteligencia artificial se adapta a los distintos géneros y modalidades existentes en el mercado, comúnmente encontrada en los patrones de acción de los NPC (non-player character), donde con base en las acciones de jugadores, los oponentes o enemigos NPC responden con patrones de comportamiento que dan la impresión de que el enfrentamiento se da con criaturas inteligentes
-                El autor Pieter Spronk [1]., es el responsable del articulo llamado "extroversion in games" y en él. explica que por medio de las acciones del jugador a lo largo del juego es posible obtener una gran cantidad de información permitiendo armar un perfil del mismo, aunque tambien desperdicia información que podría ser mejor aprovechada
-                El artículo "rapid adaption of video game AI"[2] propone una adaptación en la que se utiliza el razonamiento basado en casos. Por medio de esta metodología se recolectan las observaciones hechas por el enemigo para posteriormente extraer una base de casos
-                Debido a que el enfoque de la solución que planteamos se centra en el uso de algoritmos basados en la búsqueda del camino más corto nos basamos en autores con investigaciones previas en el tema, por ejemplo, Xiao Cui y Hao Shi proponen la implementación del algoritmo A* para encontrar el camino más corto hacia un objetivo, describiendo su proceso como un análisis de posiciones inexploradas que ha visto, y de entre todas ellas escoger la más prometedora.
-                I Pohl presenta la búsqueda del camino más corto con una aplicación heurística, aplicada en grafos dirigidos, explorando tambien la eficiencia del mismo.
-            Jie Hu Wang gen Wan y Xiaoqing Yu [10]  vuelven a presentar el algoritmo A* pero esta vez muestran su aplicación en un videojuego desarrollado en unity3d.
-                Botea, Adi [11] analiza trabajos previos donde se aplica la búsqueda del camino más corto, tomando como referencia la industris de los videojuegos
-                R Graham, H McCabe, S Sheridan en Neural networks for real-time pathfinding in computer games [9] se encargaron de relaciónar la búsqueda de caminos más cortos con redes neuronales para el mejoramiento de inteligencias artificiales
-                RE Korf [6]  explora los mejores algoritmos de búsqueda del camino más corto en términos de complejidad, eficiencia y costo.
-                A Ansari, MA Sayyed, K Ratlamwala [3] se enfocaron en aplicar la búsqueda de caminos más corto reduciendo el número de iteraciones en los procesos para aumentar su eficiencia y reducir su complejidad
-                Consideramos que los algoritmos de búsqueda del camino más corto son los más apropiados a nuestra investigación, debido a la cantidad de documentación existente y el seguimiento que se les ha dado previamente, tambien se toma en consideración la dificultad del proyecto al cual lo estamos implementado pues este es bastante simple y por el momento no requerimos manejar una estructura de gran complejidad.
+        <p>En el campo de los videojuegos la inteligencia artificial se adapta a los distintos géneros y modalidades existentes en el mercado, comúnmente encontrada en los patrones de acción de los NPC (non-player character), donde con base en las acciones de jugadores, los oponentes o enemigos NPC responden con patrones de comportamiento que dan la impresión de que el enfrentamiento se da con criaturas inteligentes.<br><br>
+                El autor Pieter Spronk [1]., es el responsable del articulo llamado "extroversion in games" y en él. explica que por medio de las acciones del jugador a lo largo del juego es posible obtener una gran cantidad de información permitiendo armar un perfil del mismo, aunque tambien desperdicia información que podría ser mejor aprovechada.<br><br>
+                El artículo "rapid adaption of video game AI"[2] propone una adaptación en la que se utiliza el razonamiento basado en casos. Por medio de esta metodología se recolectan las observaciones hechas por el enemigo para posteriormente extraer una base de casos.<br><br>
+                Debido a que el enfoque de la solución que planteamos se centra en el uso de algoritmos basados en la búsqueda del camino más corto nos basamos en autores con investigaciones previas en el tema, por ejemplo, Xiao Cui y Hao Shi proponen la implementación del algoritmo A* para encontrar el camino más corto hacia un objetivo, describiendo su proceso como un análisis de posiciones inexploradas que ha visto, y de entre todas ellas escoger la más prometedora.<br><br>
+                I Pohl presenta la búsqueda del camino más corto con una aplicación heurística, aplicada en grafos dirigidos, explorando tambien la eficiencia del mismo.<br><br>
+            Jie Hu Wang gen Wan y Xiaoqing Yu [10]  vuelven a presentar el algoritmo A* pero esta vez muestran su aplicación en un videojuego desarrollado en unity3d.<br><br>
+                Botea, Adi [11] analiza trabajos previos donde se aplica la búsqueda del camino más corto, tomando como referencia la industris de los videojuegos.<br><br>
+                R Graham, H McCabe, S Sheridan en Neural networks for real-time pathfinding in computer games [9] se encargaron de relaciónar la búsqueda de caminos más cortos con redes neuronales para el mejoramiento de inteligencias artificiales.<br><br>
+                RE Korf [6]  explora los mejores algoritmos de búsqueda del camino más corto en términos de complejidad, eficiencia y costo.<br><br>
+                A Ansari, MA Sayyed, K Ratlamwala [3] se enfocaron en aplicar la búsqueda de caminos más corto reduciendo el número de iteraciones en los procesos para aumentar su eficiencia y reducir su complejidad.<br><br>
+                Consideramos que los algoritmos de búsqueda del camino más corto son los más apropiados a nuestra investigación, debido a la cantidad de documentación existente y el seguimiento que se les ha dado previamente, tambien se toma en consideración la dificultad del proyecto al cual lo estamos implementado pues este es bastante simple y por el momento no requerimos manejar una estructura de gran complejidad.<br><br>
         </p>
 
         <h2 id="elem3">3 Metodología</h2>
         <h3 class="other">3.1 Programa</h3>
-        <p class="Programa">El programa en el cual se probó la implementación del algoritmo es un juego que simula una partida de soccer, en la cual hay dos personajes(jugadores) y dos usuarios controlándolos, se permite que ambos usuarios controlen con el teclado el movimiento de su personaje respectivo, pero para probar la funcionalidad del algoritmo, la partida se da en el computador y el usuario. El personaje controlado por el computador reacciona buscando el balón escogiendo la ruta más corta hacia el mismo, para posteriormente recuperarlo y manipularlo hasta conseguir anotar un gol.</p>
+        <p class="Programa"><br><br>El programa en el cual se probó la implementación del algoritmo es un juego que simula una partida de soccer, en la cual hay dos personajes(jugadores) y dos usuarios controlándolos, se permite que ambos usuarios controlen con el teclado el movimiento de su personaje respectivo, pero para probar la funcionalidad del algoritmo, la partida se da en el computador y el usuario. El personaje controlado por el computador reacciona buscando el balón escogiendo la ruta más corta hacia el mismo, para posteriormente recuperarlo y manipularlo hasta conseguir anotar un gol.<br><br></p>
         <h3 class="other">3.2 Lenguaje de programacion</h3>
-        <p class="LenguajeProgramacion">Para llevar a cabo la implementación del algoritmo se empleó el lenguaje de programación orientada a objetos java, debido al conocimiento previo que se tiene del mismo y la facilidad que nos provee al momento de adaptar las soluciones propuestas. </p>
+        <p class="LenguajeProgramacion"><br><br>Para llevar a cabo la implementación del algoritmo se empleó el lenguaje de programación orientada a objetos java, debido al conocimiento previo que se tiene del mismo y la facilidad que nos provee al momento de adaptar las soluciones propuestas.<br><br> </p>
         <h3 class="other">3.3 Modelado</h3>
-        <p class="Modelado">Se empleo MVL (Modelo Vista Control) para definir la arquitectura de software con el fin de separar los datos, la interfaz de usuario, y la lógica de los controladores en tres componentes diferentes. 
-         Con la arquitectura Cliente-Servidor se controlan las peticiones de ambos usuarios, para las acciones de cada cliente en la pantalla de su adversario.  
-                </p>
+        <p class="Modelado"><br><br>Se empleo MVL (Modelo Vista Control) para definir la arquitectura de software con el fin de separar los datos, la interfaz de usuario, y la lógica de los controladores en tres componentes diferentes.<br>
+         Con la arquitectura Cliente-Servidor se controlan las peticiones de ambos usuarios, para las acciones de cada cliente en la pantalla de su adversario.  <br><br>
+         <br><br> </p>
         <h3 class="other">3.4 Algoritmos</h3>
-        <p class="Algoritmos">
+        <p class="Algoritmos"><br><br>
             Para la implementación se tomaron como base diferentes estructuras de datos, las cuales nos permitieron extraer la funcionalidad básica para encontrar el camino más corto de un punto a otro, teniendo en cuenta tambien el aspecto heurístico que nos permitiera automatizar el control de la maquina sobre su personaje asignado. De entre los algoritmos que se tomaron en cuenta para su análisis de destacan los siguientes:<br>
              •	Shortest Path, with two useful variations (A*)<br>
              •	Finding the shortest path or paths between two chosen nodes<br>
@@ -101,7 +114,7 @@
              •	Dijkstra<br>
              •	BFS<br>
              •	DFS<br>
-             Finalmente nos decidimos por implementar un algoritmo propio que se ajustara a nuestras necesidades, basándonos en el conocimiento adquirido de las diversas fuentes de información.<br>
+             Finalmente nos decidimos por implementar un algoritmo propio que se ajustara a nuestras necesidades, basándonos en el conocimiento adquirido de las diversas fuentes de información.<br><br>
                 </e>
 
     <h2 id="elem4">Resultados</h2>
